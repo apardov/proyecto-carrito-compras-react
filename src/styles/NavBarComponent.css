@@ -1,0 +1,13 @@
+.carrito {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .carrito-mobile {
+        display: none;
+    }
+
+    .carrito {
+        display: block;
+    }
+}
